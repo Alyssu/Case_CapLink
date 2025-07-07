@@ -27,7 +27,7 @@
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
-## 🧐 About <a name = "about"></a>
+## 🧐 Sobre o projeto <a name = "about"></a>
 
 Esse pequeno projeto tem por função resolver o case proposto no Processo Seletivo da CapLink para Pessoa Estagiária de Automação de Processos e Dados.
 
@@ -37,76 +37,69 @@ A ideia central consiste na implementação de uma pequena automação, com o ob
 - Resolução de problemas
 - Documentação e estruturação de fluxo
 
-## 🏁 Getting Started <a name = "getting_started"></a>
+## 🏁 Preparação do Ambiente <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them.
-
+Para iniciar o projeto, basta fazer o download do arquivo ou clonar o repositorio em sua máquina atraves do comando Git
 ```
-Give examples
+git clone https://github.com/Alyssu/Case_CapLink.git
 ```
 
-### Installing
+Após o download/clonagem do repositorio, basta seguir as instruções abaixo
 
-A step by step series of examples that tell you how to get a development env running.
+### Pre requisitos
 
-Say what the step will be
+Ao abrir o projeto, inicie o arquivo 'requeriments.bat'
 
-```
-Give the example
-```
-
-And repeat
+Ou, digite o seguinte codigo no terminal
 
 ```
-until finished
+pip install -r requiriments.txt
 ```
 
-End with an example of getting some data out of the system or using it for a little demo.
+## 🔧 Rodando o Programa <a name = "tests"></a>
 
-## 🔧 Running the tests <a name = "tests"></a>
+Depois de ter instalado as dependencias, o programa já está pronto para rodar.
 
-Explain how to run the automated tests for this system.
+### Faça a inicialização do arquivo main.py
 
-### Break down into end to end tests
-
-Explain what these tests test and why
+Após rodar o programa, deverá aparecer o seguinte resultado no terminal:
 
 ```
-Give an example
+--- Relatório de Atividade dos Usuários ---
+ID | Nome do Usuario | Qtd. Posts | Media de Caracteres
+--------------------------------------------------------------------------------
+1 | Leanne Graham | 10 | 164.5
+2 | Ervin Howell | 10 | 162.9
+3 | Clementine Bauch | 10 | 153.8
+4 | Patricia Lebsack | 10 | 182.3
+5 | Chelsey Dietrich | 10 | 162.5
+6 | Mrs. Dennis Schulist | 10 | 147.0
+7 | Kurtis Weissnat | 10 | 163.5
+8 | Nicholas Runolfsdottir V | 10 | 160.6
+9 | Glenna Reichert | 10 | 154.6
+10 | Clementina DuBuque | 10 | 154.7
 ```
 
-### And coding style tests
+#### Correndo tudo bem, será gerado um relatorio em formato CSV
 
-Explain what these tests test and why
-
+#### E será feito um POST para o caminho ficcticio /send-email
 ```
-Give an example
+Relatório salvo com sucesso em 'relatorio_usuarios.csv'
+
+Simulando envio do relatório para o destinatário: {destinatário}
 ```
 
-## 🎈 Usage <a name="usage"></a>
+## ⛏️ Ferramentas Utilizadas <a name = "built_using"></a>
 
-Add notes about how to use the system.
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
-
-## ⛏️ Built Using <a name = "built_using"></a>
-
-- [MongoDB](https://www.mongodb.com/) - Database
-- [Express](https://expressjs.com/) - Server Framework
-- [VueJs](https://vuejs.org/) - Web Framework
-- [NodeJs](https://nodejs.org/en/) - Server Environment
+- [Python](https://www.python.org/) - Linguagem Usada
+- [Requests](https://pypi.org/project/requests/) - Biblioteca para requisições HTTP
+- [JSON](https://docs.python.org/pt-br/3.13/library/json.html) - Biblioteca para manipulação de JSON's em Python
+- [{JSON} Placeholder](https://vuejs.org/) - API para extração dos dados
+- [CSV](https://docs.python.org/pt-br/3/library/csv.html) - Biblioteca para leitura e escrita de arquivos CSV
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+- [@Alyssu](https://github.com/Alyssu) - Ideia & Realização
 
 ## 🎉 Acknowledgements <a name = "acknowledgement"></a>
 
