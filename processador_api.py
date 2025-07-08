@@ -53,8 +53,8 @@ def imprimir_relatorio_console(dados_relatorio):
     print("-" * 80)
 
     for linha in dados_relatorio:
-        print(f"{linha['ID do Usuario']} | "
-              f"{linha['Nome do Usuario']} | "
+        print(f"{linha['ID do Usuario']:<5} | "
+              f"{linha['Nome do Usuario']:<25} | "
               f"{linha['Quantidade de Posts']} | "
               f"{linha['Media de Caracteres dos Posts']}")
 
