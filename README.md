@@ -93,12 +93,14 @@ Simulando envio do relatório para o destinatário: {destinatário}
 - [{JSON} Placeholder](https://vuejs.org/) - API para extração dos dados
 - [CSV](https://docs.python.org/pt-br/3/library/csv.html) - Biblioteca para leitura e escrita de arquivos CSV
 
-## ✍️ Autor <a name = "autor"></a>
-
-- [@Alyssu](https://github.com/Alyssu) - Ideia & Realização
-
 ## 🎉 Conclusões <a name = "acknowledgement"></a>
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- References
+#### A execução do teste foi concluída com sucesso, atingindo todos os objetivos gerais e específicos propostos. 
+
+#### O resultado principal foi a validação de um pipeline de dados de ponta a ponta, que se mostrou eficaz e robusto em todas as suas etapas. Foi possível estabelecer conexão de forma confiável, obtendo e estruturando com sucesso os dados de usuários e posts da API externa.
+
+#### O resultado final não se limitou apenas aos dados processados, mas também a um código-fonte modular, documentado e de fácil manutenção, que serve como uma base sólida para futuras expansões.
+
+## ✍️ Autor <a name = "autor"></a>
+
+- ### [@Alyssu](https://github.com/Alyssu) - Ideia & Realização
